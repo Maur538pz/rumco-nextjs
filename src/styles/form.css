@@ -1,0 +1,13 @@
+.form{
+    background-color: black;
+}
+
+.input{
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+
+}
+.error{
+    border : 2px solid red;
+}

@@ -1,0 +1,53 @@
+.title{
+    font-family: "IBM Plex Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.768px;
+    height: 120px;
+    width: 400px;
+    background-color: yellow;
+    margin-bottom: 24px;
+}
+.serviceSection{
+    display: flex;
+    gap:16px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: rebeccapurple;
+    width: clamp(320px,43.92%,520px);
+
+}
+.cont-descriptions1 , .cont-description2 {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.cont-part1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.part2{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:16px;
+    background-color: red;
+    width: clamp(320px,56.08%,664px);
+    img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}
